@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 140" fill="none">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6d28d9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6d28d9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Document + Broadcast icon -->
+  <g transform="translate(5, 10)">
+    <circle cx="60" cy="60" r="56" fill="url(#grad1)" opacity="0.12"/>
+    <circle cx="60" cy="60" r="56" stroke="url(#grad1)" stroke-width="2.5" fill="none"/>
+
+    <!-- Document shape -->
+    <path d="M38 30 L38 90 L70 90 L70 44 L56 30 Z" fill="url(#grad1)" opacity="0.85"/>
+    <path d="M56 30 L56 44 L70 44" fill="none" stroke="white" stroke-width="1.5" opacity="0.7"/>
+
+    <!-- Text lines on document -->
+    <line x1="45" y1="55" x2="63" y2="55" stroke="white" stroke-width="1.5" opacity="0.8"/>
+    <line x1="45" y1="63" x2="63" y2="63" stroke="white" stroke-width="1.5" opacity="0.8"/>
+    <line x1="45" y1="71" x2="57" y2="71" stroke="white" stroke-width="1.5" opacity="0.8"/>
+
+    <!-- Broadcast signal arcs -->
+    <circle cx="74" cy="54" r="2.5" fill="white" opacity="0.9"/>
+    <path d="M74 47 A 7 7 0 0 1 81 54" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    <path d="M74 40 A 14 14 0 0 1 88 54" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+    <path d="M74 33 A 21 21 0 0 1 95 54" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+  </g>
+
+  <!-- Text -->
+  <text x="135" y="65"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="42" font-weight="700" fill="#1c1917">llms.txt</text>
+  <text x="135" y="105"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="42" font-weight="300" fill="url(#grad2)">Architect</text>
+</svg>
