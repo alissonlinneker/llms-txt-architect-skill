@@ -1,7 +1,7 @@
 ---
 name: llms-txt-architect
-description: Generate production-ready llms.txt files (compact + full × 2 languages) following the llmstxt.org standard. Reads the codebase to understand the project, generates 4 structured files for AI/LLM discoverability, configures HTML link tags, and validates robots.txt. Use when asked to create llms.txt, make a site AI-discoverable, set up GEO (Generative Engine Optimization), or prepare a project for LLM crawlers.
-argument-hint: [--output <dir>] [--primary-lang <code>] [--secondary-lang <code>] [--skip-html] [--skip-robots]
+description: "Generate production-ready llms.txt files (compact + full x 2 languages) following the llmstxt.org standard. Reads the codebase to understand the project, generates 4 structured files for AI/LLM discoverability, configures HTML link tags, and validates robots.txt. Use when asked to create llms.txt, make a site AI-discoverable, set up GEO (Generative Engine Optimization), or prepare a project for LLM crawlers."
+argument-hint: "[--output <dir>] [--primary-lang <code>] [--secondary-lang <code>] [--skip-html] [--skip-robots]"
 ---
 
 # llms-txt-architect
